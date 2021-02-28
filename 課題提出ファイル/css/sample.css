@@ -1,0 +1,107 @@
+body{
+    font-size: 20px;
+    width:100%;
+}
+
+header{
+    border-bottom: 1px solid rgb(241, 236, 236);
+    text-align: center;
+}
+
+h1{
+    font-size: 40px;
+    background-color: #f888ef;
+    padding: 20px;
+}
+main{
+    width:100%;
+    display: block;
+    margin-top: 20px;
+    border-bottom:1px solid rgb(255, 253, 253);
+    
+}
+.box_wrapper{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type="text"] { width: 15em; }
+input[type="text1"] { width: 3em; }
+input[type="text2"] { width: 5em; }
+input[type="text3"] { width: 25em; }
+input[type="text4"] { width: 31em; }
+
+title{
+    font: 15px;
+    text-align: left;
+    color: #31032d;
+
+}
+
+
+footer{
+    background-color: #fff;
+    text-align: center;
+}
+
+.action{
+    text-align: center;
+}
+
+
+p{
+    font-size:200%;
+    text-align: center;
+    border-bottom:1px solid #fff;
+    height:200px;
+}
+ul{
+    padding: 0;
+    border-top: 1px solid #000000;
+    display:table;  /* 定義 */
+    table-layout: fixed;
+    width:96%;
+    font-size: 80%;
+    margin: 0 3%;
+    text-align: center;
+}
+li{
+    list-style-type:none;
+    border: 1px solid #666;
+    background-color: #fff;
+    display:table-cell;  /* 定義 */
+    cursor: pointer;
+    color:#121c29;
+}
+li:hover{
+    background: #0b0f13;
+    color:#fff;
+}
+
+
+#key{
+    margin:0 3%;
+    width: 95%;
+    font-size:80%;
+    box-shadow: 3px 3px 3px 3px #555;
+}
+
+table{
+    margin: 20px 3%;
+    width:96%;
+    
+}
+th{
+    width:30%;
+    font-size:24px;
+    background-color:hsl(315, 85%, 75%);
+    border-bottom: 1px solid #d310c3;
+}
+td{
+    font-size:16px;
+    background-color:rgb(241, 239, 239);
+    border-bottom: 1px solid #0b0b0c;
+}
+
+
